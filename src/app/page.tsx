@@ -124,7 +124,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
       text="Ready to stop watching your content disappear after one upload? Book a 20-minute call to audit your content."
-      buttons={[{ text: "Book a free call →", href: "#" }]}
+      buttons={[{ text: "Book a free call →", href: "https://calendly.com/your-booking-link" }]}
     />
   </div>
 
