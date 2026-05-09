@@ -31,14 +31,14 @@ export default function LandingPage() {
       navItems={[
         { name: "Book a call", id: "#contact" }
       ]}
-      brandName="CLIP AGENCY"
+      brandName="TABLOID "
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{ variant: "gradient-bars" }}
-      title="We help podcasters hit 1M+ monthly views in 60 days without touching a single edit yourself."
+      title="We put you on the front page of the For You feed "
       description="You already have the content. We turn one long-form drop into 30+ short-form clips, posted across TikTok, Reels, and Shorts — without you touching a single timeline."
       tag="Trusted by creators clipping content for niche audiences."
       buttons={[{ text: "Book a free call →", href: "#contact" }]}
