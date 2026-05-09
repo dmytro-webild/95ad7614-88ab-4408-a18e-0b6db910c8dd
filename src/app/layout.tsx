@@ -13,7 +13,11 @@ export const metadata: Metadata = {
   description: 'We turn long-form content into 30+ short-form clips a week. Built for creators who want to grow on TikTok, Reels, and Shorts without lifting a finger.',
 };
 
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
