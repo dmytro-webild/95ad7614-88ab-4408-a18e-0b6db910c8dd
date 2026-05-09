@@ -29,10 +29,7 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Book a call",
-          id: "#contact",
-        },
+        { name: "Book a call", id: "#contact" }
       ]}
       brandName="CLIP AGENCY"
     />
@@ -40,39 +37,18 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="We help podcasters hit 1M+ monthly views in 60 days without touching a single edit yourself."
       description="You already have the content. We turn one long-form drop into 30+ short-form clips, posted across TikTok, Reels, and Shorts — without you touching a single timeline."
       tag="Trusted by creators clipping content for niche audiences."
-      buttons={[
-        {
-          text: "Book a free call →",
-          href: "#contact",
-        },
-      ]}
+      buttons={[{ text: "Book a free call →", href: "#contact" }]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336648901-87285d4e.png",
-          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures.",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336648901-87285d4e.png",          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures."
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336656545-573ef5bd.png",
-          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures.",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-smartphone-with-live-abstract-wallpaper-coming-out-screen_23-2151033614.jpg",
-          imageAlt: "Modern smartphone with live abstract wallpaper coming out of the screen",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/hand-holding-smartphone-home_23-2150639942.jpg",
-          imageAlt: "Hand holding smartphone at home",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-smartphone-with-live-abstract-wallpaper-coming-out-screen_23-2151033637.jpg",
-          imageAlt: "Modern smartphone with live abstract wallpaper coming out of the screen",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336656545-573ef5bd.png",          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures."
+        }
       ]}
       mediaAnimation="opacity"
       rating={5}
@@ -87,21 +63,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
       metrics={[
-        {
-          id: "1",
-          value: "10M+",
-          description: "TOTAL VIEWS DELIVERED",
-        },
-        {
-          id: "2",
-          value: "25+",
-          description: "CREATORS SERVED",
-        },
-        {
-          id: "3",
-          value: "5,000+",
-          description: "CLIPS POSTED",
-        },
+        { id: "1", value: "10M+", description: "TOTAL VIEWS DELIVERED" },
+        { id: "2", value: "25+", description: "CREATORS SERVED" },
+        { id: "3", value: "5,000+", description: "CLIPS POSTED" }
       ]}
       title="THE NUMBERS"
       description="High velocity · Proven hooks · Platform native · Algorithm friendly · Maximum reach"
@@ -115,42 +79,12 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        {
-          id: "1",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/mockup-mobile-phone-screen_53876-63379.jpg",
-        },
-        {
-          id: "2",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/smartphone-device-with-minimalist-monochrome-background_23-2150763340.jpg",
-        },
-        {
-          id: "3",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/incoming-call-screen-from-merry-christmas-happy-new-year-close-up_169016-43483.jpg",
-        },
-        {
-          id: "4",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-man-holding-vertical-digital-tablet-with-green-screen-online-conference-group-video-call-home-living-room-person-using-touchscreen-device-with-chroma-key-watching-webinar_482257-43508.jpg",
-        },
-        {
-          id: "5",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-bad-habit-concept_23-2148540770.jpg",
-        },
-        {
-          id: "6",
-          name: "1.2M views @creator",
-          price: "TikTok",
-          imageSrc: "http://img.b2bpic.net/free-photo/phone-with-intelligent-software-placed-table-kitchen-with-nobody-controlling-light-with-high-tech-application_482257-2267.jpg",
-        },
+        { id: "1", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/mockup-mobile-phone-screen_53876-63379.jpg" },
+        { id: "2", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/smartphone-device-with-minimalist-monochrome-background_23-2150763340.jpg" },
+        { id: "3", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/incoming-call-screen-from-merry-christmas-happy-new-year-close-up_169016-43483.jpg" },
+        { id: "4", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/closeup-man-holding-vertical-digital-tablet-with-green-screen-online-conference-group-video-call-home-living-room-person-using-touchscreen-device-with-chroma-key-watching-webinar_482257-43508.jpg" },
+        { id: "5", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/front-view-bad-habit-concept_23-2148540770.jpg" },
+        { id: "6", name: "1.2M views @creator", price: "TikTok", imageSrc: "http://img.b2bpic.net/free-photo/phone-with-intelligent-software-placed-table-kitchen-with-nobody-controlling-light-with-high-tech-application_482257-2267.jpg" }
       ]}
       title="Recent Work"
       description="Clips that actually moved the needle."
@@ -162,21 +96,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        {
-          title: "Podcasters",
-          description: "If you're sitting on 50+ hours of long-form audio and video, you're leaving growth on the table.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-person-with-vertical-green-screen-display-smartphone_482257-15525.jpg",
-        },
-        {
-          title: "YouTubers",
-          description: "Every video you've made is a goldmine of 30-second hooks that already proven work.",
-          imageSrc: "http://img.b2bpic.net/free-photo/ebook-reader-green-striped-background_58702-6484.jpg",
-        },
-        {
-          title: "Founders",
-          description: "Your long-form interviews are the most credible content you'll ever produce for your brand.",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hands-holding-smartphone_23-2150671593.jpg",
-        },
+        { title: "Podcasters", description: "If you're sitting on 50+ hours of long-form audio and video, you're leaving growth on the table.", imageSrc: "http://img.b2bpic.net/free-photo/young-person-with-vertical-green-screen-display-smartphone_482257-15525.jpg" },
+        { title: "YouTubers", description: "Every video you've made is a goldmine of 30-second hooks that already proven work.", imageSrc: "http://img.b2bpic.net/free-photo/ebook-reader-green-striped-background_58702-6484.jpg" },
+        { title: "Founders", description: "Your long-form interviews are the most credible content you'll ever produce for your brand.", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hands-holding-smartphone_23-2150671593.jpg" }
       ]}
       title="Who this is for"
       description="If you're already doing this, you should be clipping."
@@ -187,21 +109,9 @@ export default function LandingPage() {
       <FaqSplitText
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "1",
-          title: "01. You drop your long-form",
-          content: "Send us your podcast feed, YouTube channel, or a Dropbox of past content.",
-        },
-        {
-          id: "2",
-          title: "02. We clip, caption, and schedule",
-          content: "Our team turns one long-form piece into 30+ vertical clips with hooks, captions, and platform-native edits.",
-        },
-        {
-          id: "3",
-          title: "03. You watch your views compound",
-          content: "Weekly reports show what's working, what's scaling, and where to point next month's clips.",
-        },
+        { id: "1", title: "01. You drop your long-form", content: "Send us your podcast feed, YouTube channel, or a Dropbox of past content." },
+        { id: "2", title: "02. We clip, caption, and schedule", content: "Our team turns one long-form piece into 30+ vertical clips with hooks, captions, and platform-native edits." },
+        { id: "3", title: "03. You watch your views compound", content: "Weekly reports show what's working, what's scaling, and where to point next month's clips." }
       ]}
       sideTitle="HOW IT WORKS"
       sideDescription="Three steps. We do the other 47."
@@ -212,16 +122,9 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient",
-      }}
+      background={{ variant: "sparkles-gradient" }}
       text="Ready to stop watching your content disappear after one upload? Book a 20-minute call to audit your content."
-      buttons={[
-        {
-          text: "Book a free call →",
-          href: "#",
-        },
-      ]}
+      buttons={[{ text: "Book a free call →", href: "#" }]}
     />
   </div>
 
