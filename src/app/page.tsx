@@ -124,13 +124,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
       text="Ready to stop watching your content disappear after one upload? Book a 20-minute call to audit your content."
-      buttons={[{ text: "Book a free call →", href: "https://calendly.com/your-booking-link" }]}
+      buttons={[{ text: "Book a free call →", onClick: () => window.open("https://calendly.com/your-booking-link", "_blank") }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="CLIP AGENCY · Built by Founder · © 2026"
+      logoText="CLIP AGENCY"
+      copyrightText="© 2026 Tabloid Media. All rights reserved. Built for creators who refuse to settle for low engagement."
     />
   </div>
       </ReactLenis>
