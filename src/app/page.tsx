@@ -2,8 +2,8 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
@@ -90,25 +90,33 @@ export default function LandingPage() {
   </div>
 
   <div id="process" data-section="process">
-      <FaqSplitText
+      <FaqSplitMedia
       useInvertedBackground={false}
+      mediaPosition="right"
+      mediaAnimation="slide-up"
+      imageSrc="http://img.b2bpic.net/free-photo/young-person-with-vertical-green-screen-display-smartphone_482257-15525.jpg"
       faqs={[
         { id: "1", title: "01. You drop your long-form", content: "Send us your podcast feed, YouTube channel, or a Dropbox of past content." },
         { id: "2", title: "02. We clip, caption, and schedule", content: "Our team turns one long-form piece into 30+ vertical clips with hooks, captions, and platform-native edits." },
         { id: "3", title: "03. You watch your views compound", content: "Weekly reports show what's working, what's scaling, and where to point next month's clips." }
       ]}
-      sideTitle="HOW IT WORKS"
-      sideDescription="Three steps. We do the other 47."
+      title="HOW IT WORKS"
+      description="Three steps. We do the other 47."
       faqsAnimation="slide-up"
+      textboxLayout="split-description"
     />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactText
+      <ContactSplitForm
+      title="Let's get started"
+      description="Tell us about your content strategy and we'll reach out to discuss your growth potential."
       useInvertedBackground={false}
-      background={{ variant: "sparkles-gradient" }}
-      text="Ready to stop watching your content disappear after one upload? Book a 20-minute call to audit your content."
-      buttons={[{ text: "Book a free call →", onClick: () => window.open("https://calendly.com/your-booking-link", "_blank") }]}
+      inputs={[
+          { name: "name", type: "text", placeholder: "Name" },
+          { name: "email", type: "email", placeholder: "Email Address" }
+      ]}
+      textarea={{ name: "message", placeholder: "Tell us about your goals" }}
     />
   </div>
 
