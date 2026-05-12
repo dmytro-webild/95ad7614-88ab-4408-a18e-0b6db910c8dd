@@ -6,7 +6,6 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import ZoomParallax from '@/components/sections/hero/ZoomParallax';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
@@ -36,13 +35,9 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <ZoomParallax
-      title="We put you on the front page of the For You feed "
-      description="You already have the content. We turn one long-form drop into 30+ short-form clips, posted across TikTok, Reels, and Shorts — without you touching a single timeline."
-      images={[
-        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336648901-87285d4e.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336656545-573ef5bd.png"
-      ]}
-    />
+      <div className="flex items-center justify-center py-20">
+        <h1 className="text-5xl font-bold">We put you on the front page of the For You feed</h1>
+      </div>
   </div>
 
   <div id="results" data-section="results">
