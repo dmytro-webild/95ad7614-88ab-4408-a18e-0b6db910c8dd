@@ -6,7 +6,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
+import ZoomParallax from '@/components/sections/hero/ZoomParallax';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
@@ -36,23 +36,12 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplitDualMedia
-      background={{ variant: "gradient-bars" }}
+      <ZoomParallax
       title="We put you on the front page of the For You feed "
       description="You already have the content. We turn one long-form drop into 30+ short-form clips, posted across TikTok, Reels, and Shorts — without you touching a single timeline."
-      tag="Trusted by creators clipping content for niche audiences."
-      buttons={[{ text: "Book a free call →", href: "#contact" }]}
-      mediaItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336648901-87285d4e.png",          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures."
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336656545-573ef5bd.png",          imageAlt: "Abstract dark motion graphic background with subtle geometric particles and flowing fluid textures."
-        }
+      images={[
+        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336648901-87285d4e.png",        "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUSHlXdc1hhfe5JVjzrfndRXYM/abstract-dark-motion-graphic-background--1778336656545-573ef5bd.png"
       ]}
-      mediaAnimation="opacity"
-      rating={5}
-      ratingText="Trusted by 50+ creators"
     />
   </div>
 
